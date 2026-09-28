@@ -1,0 +1,49 @@
+NULL MICROBIOME SIMULATION SUMMARY
+==================================
+
+Random seed:
+42
+
+Samples:
+50
+
+Control samples:
+25
+
+Case samples:
+25
+
+Taxa:
+100
+
+True differentially abundant taxa:
+0
+
+Mean target library size:
+10000
+
+Observed mean library size:
+9994.22
+
+Observed minimum library size:
+9753
+
+Observed maximum library size:
+10191
+
+Dirichlet concentration:
+0.5
+
+Fraction of zero cells:
+0.0468
+
+Mean count per taxon-sample cell:
+99.94
+
+Median count per taxon-sample cell:
+43.00
+
+Interpretation:
+Case and control samples were generated from the same underlying
+microbial abundance distribution. Therefore, no taxon is truly
+differentially abundant in this dataset.

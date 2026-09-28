@@ -1,0 +1,65 @@
+MICROBIOME QUALITY-CONTROL SUMMARY
+==================================
+
+Dataset:
+null
+
+Samples:
+50
+
+Groups:
+  Control: 25
+  Case: 25
+
+Taxa before QC:
+100
+
+Taxa after QC:
+100
+
+Taxa removed:
+0
+
+All-zero taxa:
+0
+
+Samples failing QC:
+0
+
+Mean library size:
+9994.22
+
+Median library size:
+9992.50
+
+Minimum library size:
+9753
+
+Maximum library size:
+10191
+
+Zero fraction before QC:
+0.0468
+
+Zero fraction after QC:
+0.0468
+
+Minimum total-count threshold:
+1
+
+Minimum prevalence threshold:
+0.0
+
+DOWNSTREAM INPUT
+----------------
+The QC count table contains raw integer counts.
+
+The same QC counts and metadata are used as the starting input for:
+
+1. CLR/Wilcoxon
+2. ALDEx2
+3. ANCOM-BC
+4. DESeq2
+
+No normalization, pseudocount addition, CLR transformation,
+or differential-abundance testing was performed during QC.
