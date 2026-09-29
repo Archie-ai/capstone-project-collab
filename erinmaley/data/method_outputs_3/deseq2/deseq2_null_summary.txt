@@ -1,0 +1,29 @@
+DESeq2 METHOD SUMMARY
+=====================
+
+Dataset: null
+DESeq2 version: 1.52.0
+Samples: 50
+Taxa analyzed: 100
+
+Comparison:
+Case vs Control
+
+Reference group:
+Control
+
+P-value adjustment:
+Benjamini-Hochberg (BH)
+
+Significance threshold:
+Adjusted p-value < 0.05
+
+Significant taxa: 0
+Taxa with NA adjusted p-value: 0
+
+Direction:
+Positive log2 fold change = higher in Case
+Negative log2 fold change = higher in Control
+
+QC filtering was completed before DESeq2.
+DESeq2 performed its own method-specific size-factor normalization.
