@@ -1,0 +1,37 @@
+ALDEx2 METHOD SUMMARY
+=====================
+
+Dataset: null
+ALDEx2 version: 1.44.0
+Samples: 50
+Taxa analyzed: 100
+
+Comparison:
+Case vs Control
+
+Reference group:
+Control
+
+Monte Carlo samples:
+128
+
+CLR denominator:
+all
+
+Primary statistical test:
+Wilcoxon rank-sum
+
+P-value adjustment:
+Benjamini-Hochberg (BH)
+
+Significance threshold:
+Adjusted p-value < 0.05
+
+Significant taxa: 0
+
+Direction:
+Positive difference = higher in Case
+Negative difference = higher in Control
+
+Welch and Wilcoxon ALDEx2 results are both retained in the output.
+QC filtering was completed before ALDEx2.
