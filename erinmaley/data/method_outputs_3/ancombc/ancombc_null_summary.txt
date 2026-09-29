@@ -1,0 +1,28 @@
+ANCOM-BC METHOD SUMMARY
+=======================
+
+Dataset: null
+ANCOMBC version: 2.14.0
+Samples: 50
+Taxa analyzed: 100
+
+Comparison:
+Case vs Control
+
+Reference group:
+Control
+
+P-value adjustment:
+Benjamini-Hochberg (BH)
+
+Significance threshold:
+Adjusted p-value < 0.05
+
+Significant taxa: 1
+
+Direction:
+Positive log fold change = higher in Case
+Negative log fold change = higher in Control
+
+QC filtering was completed before ANCOM-BC.
+No additional prevalence or library-size filtering was applied.
