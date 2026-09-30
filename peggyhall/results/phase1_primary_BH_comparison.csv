@@ -1,0 +1,5 @@
+"Method","Standardized_BH_Positive_Percent","Primary_Decision_Rule"
+"CLR_Wilcoxon",4,"BH-adjusted q < 0.05"
+"ALDEx2_Welch",3.5,"BH-adjusted q < 0.05"
+"ANCOM_BC2",13,"BH-adjusted q < 0.05"
+"DESeq2",14.5,"BH-adjusted q < 0.05"
