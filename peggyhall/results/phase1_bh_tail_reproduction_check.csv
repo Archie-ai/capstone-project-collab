@@ -1,0 +1,5 @@
+"Method","Diagnostic_Runs","Reproduced_Correctly","Mismatched_Runs"
+"ALDEx2_Welch",7,7,0
+"ANCOM_BC2",26,26,0
+"CLR_Wilcoxon",8,8,0
+"DESeq2",29,29,0
