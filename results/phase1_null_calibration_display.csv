@@ -1,0 +1,5 @@
+"Method","Simulations","Raw_TypeI_Percent","Raw_95CI_Lower_Percent","Raw_95CI_Upper_Percent","Mean_BH_Discoveries","Any_BH_Discovery_Percent"
+"CLR_Wilcoxon",200,4.6,4.32,4.88,0.05,4
+"ALDEx2_Welch",200,3.7,3.45,3.96,0.035,3.5
+"ANCOM_BC2",200,2.64,2.41,2.86,0.155,13
+"DESeq2",200,5.67,5.37,5.97,0.17,14.5
