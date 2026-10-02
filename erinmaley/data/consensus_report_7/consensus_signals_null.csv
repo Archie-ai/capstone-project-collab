@@ -1,0 +1,2 @@
+Taxon,MethodsSignificant,SignificantMethodCount,TotalMethods,ConsensusFraction,SignificantDirections,DirectionAgreement,ConsensusClass,ConsensusSignal,ConsensusDirection,True_DA,True_Direction
+Taxon_033,ANCOM_BC;CLR_Wilcoxon,2,4,0.5,Higher_in_Case,Agree,Consensus,True,Higher_in_Case,False,

@@ -1,0 +1,35 @@
+MICROBIOME CONSENSUS REPORT
+===========================
+
+Dataset: null
+
+Results QC:
+PASS (13 checks)
+
+Taxa evaluated: 100
+Taxa with at least one significant method: 1
+Consensus-positive taxa: 1
+
+CONSENSUS RULE
+--------------
+A consensus signal requires at least two methods to call the taxon significant and agree on direction.
+
+CONSENSUS CLASSES
+-----------------
+Full_consensus: 0
+Strong_consensus: 0
+Consensus: 1
+Discordant_signal: 0
+Single_method_signal: 0
+No_signal: 99
+
+GROUND-TRUTH CONSENSUS BENCHMARK
+--------------------------------
+True positives: 0
+False positives: 1
+True negatives: 99
+False negatives: 0
+
+CONSENSUS-POSITIVE TAXA
+-----------------------
+Taxon_033: 2/4 methods; Higher_in_Case; ANCOM_BC;CLR_Wilcoxon
