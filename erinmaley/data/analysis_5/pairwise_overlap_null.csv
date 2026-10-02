@@ -1,0 +1,7 @@
+MethodA,MethodB,SignificantA,SignificantB,SharedSignificant,UnionSignificant,JaccardIndex,SharedTaxa
+ALDEx2,ANCOM_BC,0,1,0,1,0.0,
+ALDEx2,CLR_Wilcoxon,0,1,0,1,0.0,
+ALDEx2,DESeq2,0,0,0,0,,
+ANCOM_BC,CLR_Wilcoxon,1,1,1,1,1.0,Taxon_033
+ANCOM_BC,DESeq2,1,0,0,1,0.0,
+CLR_Wilcoxon,DESeq2,1,0,0,1,0.0,

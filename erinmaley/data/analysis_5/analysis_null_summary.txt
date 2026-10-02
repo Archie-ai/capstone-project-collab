@@ -1,0 +1,55 @@
+DIFFERENTIAL-ABUNDANCE ANALYSIS SUMMARY
+=======================================
+
+Dataset: null
+Methods: 4
+Unique taxa: 100
+
+SIGNIFICANT TAXA BY METHOD
+--------------------------
+ALDEx2: 0
+ANCOM_BC: 1
+CLR_Wilcoxon: 1
+DESeq2: 0
+
+TAXON CONSENSUS
+---------------
+Taxa called significant by at least one method: 1
+Taxa called significant by all methods: 0
+
+GROUND-TRUTH BENCHMARK
+----------------------
+True DA taxa: 0
+
+ALDEx2
+  True positives: 0
+  False positives: 0
+  True negatives: 100
+  False negatives: 0
+  Specificity: 1.0000
+  False positive rate: 0.0000
+
+ANCOM_BC
+  True positives: 0
+  False positives: 1
+  True negatives: 99
+  False negatives: 0
+  Specificity: 0.9900
+  False positive rate: 0.0100
+
+CLR_Wilcoxon
+  True positives: 0
+  False positives: 1
+  True negatives: 99
+  False negatives: 0
+  Specificity: 0.9900
+  False positive rate: 0.0100
+
+DESeq2
+  True positives: 0
+  False positives: 0
+  True negatives: 100
+  False negatives: 0
+  Specificity: 1.0000
+  False positive rate: 0.0000
+

@@ -1,0 +1,5 @@
+Method,TaxaTested,SignificantTaxa,TruePositive,FalsePositive,TrueNegative,FalseNegative,Sensitivity,Specificity,Precision,FalseDiscoveryRate,FalsePositiveRate,Accuracy
+ALDEx2,100,0,0,0,100,0,,1.0,,,0.0,1.0
+ANCOM_BC,100,1,0,1,99,0,,0.99,0.0,1.0,0.01,0.99
+CLR_Wilcoxon,100,1,0,1,99,0,,0.99,0.0,1.0,0.01,0.99
+DESeq2,100,0,0,0,100,0,,1.0,,,0.0,1.0
