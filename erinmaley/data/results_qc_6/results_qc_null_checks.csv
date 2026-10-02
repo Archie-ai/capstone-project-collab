@@ -1,0 +1,14 @@
+Check,Status,Details
+Required standardized columns,PASS,All required columns present
+All four methods present,PASS,"Methods: ALDEx2, ANCOM_BC, CLR_Wilcoxon, DESeq2"
+No duplicate Method/Taxon rows,PASS,Duplicate rows: 0
+Same taxa across methods,PASS,"ALDEx2=100, ANCOM_BC=100, CLR_Wilcoxon=100, DESeq2=100"
+Raw p-values within 0 to 1,PASS,Checked all non-missing raw p-values
+Adjusted p-values within 0 to 1,PASS,Checked all non-missing adjusted p-values
+Significance matches adjusted p-value threshold,PASS,Mismatched rows: 0
+Effect direction matches effect-size sign,PASS,Mismatched rows: 0
+Required Stage 5 analysis files present,PASS,All required files present
+Stage 5 significant calls match standardized results,PASS,Expected calls: 2; Observed calls: 2
+Taxon consensus counts match method calls,PASS,Consensus count mismatches: 0
+Pairwise overlap matches underlying calls,PASS,Pairwise overlap errors: 0
+Ground-truth performance counts are reproducible,PASS,Method performance errors: 0
