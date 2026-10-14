@@ -1,0 +1,65 @@
+MICROBIOME QUALITY-CONTROL SUMMARY
+==================================
+
+Dataset:
+cdi_schubert
+
+Samples:
+247
+
+Groups:
+  Control: 154
+  Case: 93
+
+Taxa before QC:
+19314
+
+Taxa after QC:
+1420
+
+Taxa removed:
+17894
+
+All-zero taxa:
+1795
+
+Samples failing QC:
+0
+
+Mean library size:
+5059.85
+
+Median library size:
+5119.00
+
+Minimum library size:
+539
+
+Maximum library size:
+16221
+
+Zero fraction before QC:
+0.9808
+
+Zero fraction after QC:
+0.8690
+
+Minimum total-count threshold:
+1
+
+Minimum prevalence threshold:
+0.05
+
+DOWNSTREAM INPUT
+----------------
+The QC count table contains raw integer counts.
+
+The same QC counts and metadata are used as the starting input for:
+
+1. CLR/Wilcoxon
+2. ALDEx2
+3. ANCOM-BC
+4. DESeq2
+
+No normalization, pseudocount addition, CLR transformation,
+or differential-abundance testing was performed during QC.

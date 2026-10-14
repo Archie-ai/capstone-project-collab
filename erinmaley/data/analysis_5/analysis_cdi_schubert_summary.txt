@@ -1,0 +1,18 @@
+DIFFERENTIAL-ABUNDANCE ANALYSIS SUMMARY
+=======================================
+
+Dataset: cdi_schubert
+Methods: 4
+Unique taxa: 1420
+
+SIGNIFICANT TAXA BY METHOD
+--------------------------
+ALDEx2: 92
+ANCOM_BC: 521
+CLR_Wilcoxon: 1374
+DESeq2: 283
+
+TAXON CONSENSUS
+---------------
+Taxa called significant by at least one method: 1418
+Taxa called significant by all methods: 61

@@ -1,0 +1,38 @@
+CLR / WILCOXON METHOD SUMMARY
+=============================
+
+Dataset:
+cdi_schubert
+
+Samples:
+247
+
+Taxa analyzed:
+1420
+
+Comparison:
+Case vs Control
+
+Transformation:
+Centered log-ratio (CLR)
+
+Zero handling:
+Pseudocount = 1.0
+
+Statistical test:
+Two-sided Wilcoxon rank-sum / Mann-Whitney U
+
+P-value adjustment:
+Benjamini-Hochberg (BH)
+
+Significance threshold:
+Adjusted p-value < 0.05
+
+Significant taxa:
+1374
+
+Direction:
+Positive CLR difference = higher in Case
+Negative CLR difference = higher in Control
+
+QC filtering was completed before CLR/Wilcoxon.

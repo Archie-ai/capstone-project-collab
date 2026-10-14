@@ -238,13 +238,13 @@ aldex2_table <- data.frame(
 
     # ALDEx2 effect information.
     DifferenceBetween =
-        effect_result$diff.btw,
+        -effect_result$diff.btw,
 
     DifferenceWithin =
         effect_result$diff.win,
 
     Effect =
-        effect_result$effect,
+        -effect_result$effect,
 
     Overlap =
         effect_result$overlap,

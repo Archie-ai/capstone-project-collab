@@ -183,12 +183,33 @@ dds <- DESeqDataSetFromMatrix(
 # RUN DESEQ2
 # ============================================================
 
-# DESeq2 estimates size factors, dispersion, and the model internally.
-dds <- DESeq(
-    dds,
-    quiet = TRUE
+# Use the standard DESeq2 size-factor estimator when possible.
+# For sparse microbiome data where every taxon contains a zero,
+# use poscounts so size factors can still be estimated.
+
+every_taxon_has_zero <- all(
+    rowSums(counts(dds) == 0) > 0
 )
 
+if (every_taxon_has_zero) {
+
+    message(
+        "Sparse count table detected; using DESeq2 sfType='poscounts'."
+    )
+
+    dds <- DESeq(
+        dds,
+        sfType = "poscounts",
+        quiet = TRUE
+    )
+
+} else {
+
+    dds <- DESeq(
+        dds,
+        quiet = TRUE
+    )
+}
 
 # ============================================================
 # EXTRACT CASE VS CONTROL RESULTS
