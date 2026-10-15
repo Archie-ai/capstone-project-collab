@@ -1,0 +1,2 @@
+"Method","Dataset","Samples","Case_Samples","Control_Samples","OTUs_Input","OTUs_Reported","OTUs_Tested","Significant_OTUs","Robust_Significant_OTUs","Alpha"
+"ANCOMBC2","cdi_vincent",50,25,25,195,195,195,61,1,0.05

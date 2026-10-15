@@ -1,0 +1,2 @@
+Method,Dataset,Samples,Case_Samples,Control_Samples,OTUs_Tested,Significant_OTUs,Alpha,Pseudocount
+CLR_Wilcoxon,cdi_vincent,50,25,25,195,14,0.05,0.5

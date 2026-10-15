@@ -1,0 +1,2 @@
+"Method","Dataset","Samples","Case_Samples","Control_Samples","OTUs_Input","OTUs_Tested","OTUs_With_Missing_Adjusted_PValue","Significant_OTUs","Alpha"
+"DESeq2","cdi_vincent",50,25,25,195,142,53,34,0.05

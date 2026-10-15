@@ -1,0 +1,2 @@
+"Method","Dataset","Samples","Case_Samples","Control_Samples","OTUs_Input","OTUs_Tested","Significant_OTUs","Monte_Carlo_Samples","Alpha"
+"ALDEx2","cdi_vincent",50,25,25,195,195,3,128,0.05
