@@ -1,0 +1,5 @@
+"Method","Successful_Runs","Empirical_Raw_Type_I_Error","Probability_Any_BH_False_Discovery","Mean_BH_Rejection_Prop"
+"CLR_Wilcoxon",200,0.046,0.04,5e-04
+"ALDEx2_Welch",200,0.03705,0.035,0.00035
+"ANCOM_BC2",200,0.02635,0.13,0.00155
+"DESeq2",200,0.0567,0.145,0.0017

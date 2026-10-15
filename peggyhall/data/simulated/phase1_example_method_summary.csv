@@ -1,0 +1,5 @@
+"Method","Taxa_Raw_Tested","Raw_p_lt_0.05","Raw_Rejection_Prop","Taxa_BH_Tested","BH_q_lt_0.05","BH_Rejection_Prop","Any_BH_Discovery"
+"CLR_Wilcoxon",100,6,0.06,100,0,0,FALSE
+"ALDEx2_Welch",100,6,0.06,100,0,0,FALSE
+"ANCOM_BC2",100,4,0.04,100,0,0,FALSE
+"DESeq2",100,7,0.07,100,0,0,FALSE

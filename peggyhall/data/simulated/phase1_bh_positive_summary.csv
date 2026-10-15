@@ -1,0 +1,5 @@
+"Method","Successful_Simulations","BH_Positive_Simulations","BH_Positive_Percent","Total_BH_Rejections","Max_BH_Rejections_In_One_Run"
+"CLR_Wilcoxon",200,8,4,10,2
+"ALDEx2_Welch",200,7,3.5,7,1
+"ANCOM_BC2",200,26,13,31,2
+"DESeq2",200,29,14.5,34,2

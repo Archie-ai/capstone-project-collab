@@ -1,0 +1,3 @@
+"Taxon","CLR_Wilcoxon","ALDEx2_Welch","ANCOM_BC2","DESeq2"
+"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes;s__;d__denovo879",0.0224542462486433,0.928044896520936,3.48257903217321e-07,0.0412976960736885
+"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__;s__;d__denovo406",0.0300508789870142,0.947015863965283,0.000967830426716623,0.0474839149539547

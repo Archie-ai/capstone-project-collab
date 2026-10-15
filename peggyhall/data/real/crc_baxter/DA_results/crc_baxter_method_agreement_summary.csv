@@ -1,0 +1,5 @@
+"Method","Significant_OTUs"
+"CLR_Wilcoxon",24
+"ALDEx2_Welch",0
+"ANCOM_BC2",486
+"DESeq2",20

@@ -1,0 +1,29 @@
+PHASE 4 — FINAL REAL-DATA INTERPRETATION
+
+Dataset: MicrobiomeHD crc_baxter
+Comparison: CRC versus healthy controls
+Samples: 292 (120 CRC, 172 healthy)
+OTUs analyzed: 1133
+Significance threshold: BH-adjusted p < 0.05
+
+SIGNIFICANT OTUs BY METHOD
+CLR/Wilcoxon: 24
+ALDEx2 Welch: 0
+ANCOM-BC2: 486
+DESeq2: 20
+
+CONSENSUS
+OTUs supported by at least one method: 494
+OTUs supported by at least two methods: 34
+OTUs supported by at least three methods: 2
+OTUs supported by all four methods: 0
+
+INTERPRETATION
+The four DA methods produced substantially different sets of significant OTUs.
+The 3-of-4 consensus identified two OTUs supported by multiple methods.
+These findings demonstrate method disagreement on real microbiome data.
+
+LIMITATIONS
+Biological ground truth is unknown; FDR and sensitivity cannot be measured directly.
+The analysis does not establish agreement in effect direction or adjust for clinical covariates.
+ANCOM-BC2 discoveries reflect BH-adjusted p-values, not confirmed pseudo-count-robust calls.

@@ -25,13 +25,13 @@ Thumbs.db
 # ------------------------------------------------------------
 
 # Generated simulated datasets
-data/simulated/*.csv
+#data/simulated/*.csv
 data/simulated/*.tsv
 data/simulated/*.rds
 data/simulated/*.pkl
 
 # Real microbiome data should not be committed by default
-data/real/*
+#data/real/*
 
 # Allow documentation describing the real-data directory
 !data/real/README.md
