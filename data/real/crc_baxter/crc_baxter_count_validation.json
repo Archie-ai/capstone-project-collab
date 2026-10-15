@@ -1,0 +1,16 @@
+{
+    "dataset": "crc_baxter",
+    "comparison": "CRC vs Healthy",
+    "samples": 292,
+    "total_otus": 122510,
+    "all_zero_otus": 30667,
+    "invalid_cells": 0,
+    "negative_cells": 0,
+    "noninteger_cells": 0,
+    "duplicate_otu_ids": 0,
+    "zero_fraction": 0.9906275193638093,
+    "minimum_library_size": 751,
+    "median_library_size": 10499.0,
+    "maximum_library_size": 134112,
+    "validation_passed": true
+}

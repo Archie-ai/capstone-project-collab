@@ -1,0 +1,3 @@
+"Taxon","CLR_Wilcoxon","ALDEx2_Welch","ANCOM_BC2","DESeq2","Votes","Consensus_3of4"
+"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__Anaerostipes;s__;d__denovo879",TRUE,FALSE,TRUE,TRUE,3,TRUE
+"k__Bacteria;p__Firmicutes;c__Clostridia;o__Clostridiales;f__Lachnospiraceae;g__;s__;d__denovo406",TRUE,FALSE,TRUE,TRUE,3,TRUE

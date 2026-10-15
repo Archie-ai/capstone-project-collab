@@ -1,0 +1,17 @@
+{
+    "dataset": "crc_baxter",
+    "comparison": "CRC vs Healthy",
+    "sample_count": 292,
+    "crc_samples": 120,
+    "healthy_samples": 172,
+    "original_otus": 122510,
+    "retained_otus": 1133,
+    "removed_otus": 121377,
+    "minimum_prevalence": 0.1,
+    "minimum_samples": 30,
+    "minimum_total_reads": 20,
+    "filtered_zero_fraction": 0.7648532807796008,
+    "normalization_applied": false,
+    "aggregation_applied": false,
+    "input_orientation": "taxa_by_samples"
+}

@@ -1,0 +1,19 @@
+{
+    "dataset_id": "crc_baxter",
+    "source": "MicrobiomeHD",
+    "study": "Baxter et al. (2016)",
+    "disease": "Colorectal cancer",
+    "case_group": "CRC",
+    "control_group": "H",
+    "excluded_group": "adenoma",
+    "reported_case_samples": 120,
+    "reported_control_samples": 172,
+    "reported_adenoma_samples": 198,
+    "dataset_file": "crc_baxter_results.tar.gz",
+    "source_url": "https://zenodo.org/records/840333",
+    "study_doi": "10.1186/s13073-016-0290-3",
+    "analysis": "CRC versus healthy controls",
+    "purpose": "Four-method differential-abundance comparison and consensus analysis",
+    "counts_verified": false,
+    "metadata_verified": false
+}

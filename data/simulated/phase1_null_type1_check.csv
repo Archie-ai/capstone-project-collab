@@ -1,0 +1,5 @@
+"Method","Empirical_TypeI","Nominal_Alpha","Difference_From_Alpha"
+"CLR_Wilcoxon",0.046,0.05,-0.004
+"ALDEx2_Welch",0.03705,0.05,-0.01295
+"ANCOM_BC2",0.02635,0.05,-0.02365
+"DESeq2",0.0567,0.05,0.0067

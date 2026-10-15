@@ -1,0 +1,5 @@
+"Method","Taxa_Returned","Valid_Q","BH_Discoveries"
+"CLR_Wilcoxon",1133,1133,24
+"ALDEx2_Welch",1133,1133,0
+"ANCOM_BC2",1133,1133,486
+"DESeq2",1133,584,20
