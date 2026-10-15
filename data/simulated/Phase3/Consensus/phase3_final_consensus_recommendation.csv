@@ -1,0 +1,5 @@
+"Consensus_Rule","Conditions","Conditions_FDR_Controlled","Mean_Sensitivity","Mean_Empirical_FDR","Mean_Precision","Mean_Specificity","Mean_F1","Recommendation"
+"Any_1_of_4",27,0,0.577259259259259,0.304561573443879,0.644856704425451,0.958440329218107,0.576590231081486,"Too permissive; FDR not controlled"
+"Consensus_2_of_4",27,27,0.250092592592593,0.0258179320679321,0.759182791307421,0.998810699588477,0.408270184311352,"Higher-sensitivity FDR-controlled option"
+"Consensus_3_of_4",27,27,0.203277777777778,0.00467931297097964,0.830513890850059,0.99970987654321,0.438613968222239,"Recommended overall consensus rule"
+"Consensus_4_of_4",27,27,0.141611111111111,0.000521698466142911,0.998069879862334,0.999965020576132,0.42659693723262,"Most conservative; lower sensitivity"

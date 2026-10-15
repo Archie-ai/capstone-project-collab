@@ -1,0 +1,9 @@
+"Approach","Approach_Type","Conditions_Total","Conditions_FDR_Controlled","Proportion_FDR_Controlled"
+"ALDEx2_Welch","Individual_Method",27,27,1
+"ANCOM_BC2","Individual_Method",27,5,0.185185185185185
+"CLR_Wilcoxon","Individual_Method",27,21,0.777777777777778
+"DESeq2","Individual_Method",27,16,0.592592592592593
+"Any_1_of_4","Consensus_Rule",27,0,0
+"Consensus_2_of_4","Consensus_Rule",27,27,1
+"Consensus_3_of_4","Consensus_Rule",27,27,1
+"Consensus_4_of_4","Consensus_Rule",27,27,1
