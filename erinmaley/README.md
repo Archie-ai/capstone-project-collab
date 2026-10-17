@@ -91,31 +91,3 @@ A total of 286 taxa met the directional-consensus criteria:
 #### Figure 3 — CDI Consensus Support Distribution
 
 ![CDI Consensus](data/consensus_report_7/figure3_cdi_consensus_distribution.png)
-
-### Limitations
-
-The five-simulation benchmark is exploratory.
-
-Because microbiome abundance data are compositional, intentionally
-changing selected taxa can indirectly alter the relative abundances
-of other taxa. Performance measures therefore describe detection
-relative to intentionally modified taxa rather than definitive
-biological ground truth.
-
-The limited number of simulations also restricts the precision
-of statistical performance estimates.
-
-Consensus agreement does not establish biological correctness.
-
-### Software
-
-Python, R, pandas, NumPy, Matplotlib, ALDEx2, ANCOM-BC,
-DESeq2, and SciPy.
-
-### Future Work
-
-- Expand repeated simulation benchmarking
-- Evaluate additional effect sizes and sparsity conditions
-- Further assess false-discovery behavior
-- Improve biological interpretation of consensus-supported taxa
-- Integrate results into the final group presentation
