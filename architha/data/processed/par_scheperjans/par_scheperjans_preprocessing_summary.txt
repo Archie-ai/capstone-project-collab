@@ -1,0 +1,40 @@
+PAR_SCHEPERJANS PREPROCESSING SUMMARY
+====================================================================
+
+DATASET
+MicrobiomeHD: par_scheperjans
+
+SOURCE DATA
+Raw samples: 148
+Raw taxa: 10232
+Raw zero fraction: 0.967458
+Raw zero percentage: 96.75%
+
+GROUP MAPPING
+H -> Control
+PAR -> Case
+Control samples: 74
+Case samples: 74
+
+PRIMARY FILTER
+Prevalence threshold: 10%
+Minimum samples required: 15
+Filtering criterion: taxon must have count > 0 in at least 15 of 148 samples
+Additional total-count filter: none
+
+FILTER RESULT
+Taxa retained: 691
+Taxa removed: 9541
+Percent retained: 6.75%
+
+POST-FILTER DATASET
+Shape: 691 taxa x 148 samples
+Zero fraction: 0.784458
+Zero percentage: 78.45%
+Minimum taxon prevalence: 15
+Median taxon prevalence: 24.0
+Maximum taxon prevalence: 128
+
+ANALYSIS IDENTIFIERS
+Stable Taxon IDs assigned as OTU_00001 ... OTU_N.
+Original RDP taxonomy and d__denovo identifier preserved in taxonomy mapping.

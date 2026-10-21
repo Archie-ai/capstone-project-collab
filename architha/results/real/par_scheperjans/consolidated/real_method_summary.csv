@@ -1,0 +1,5 @@
+Method,Taxa_Available,Taxa_Tested,Primary_Significant,Minimum_P_Value,Minimum_Adjusted_P_Value,Diagnostic_Welch_Significant,ANCOM_Standard_Significant,ANCOM_Passed_Sensitivity,DESeq2_NoIF_Significant,DESeq2_NoFilter_NoCooks_Significant,DESeq2_Dispersion_Fit
+CLR_Wilcoxon,691,691,1,1.4800514746586322e-05,0.0102271556898911,,,,,,
+ALDEx2,691,691,0,0.0003810233691613,0.159117273551218,0.0,,,,,
+ANCOM_BC2_Robust,691,691,1,1.36714311907126e-10,9.44695895278238e-08,,365.0,327.0,,,
+DESeq2,691,691,3,1.95308615812642e-07,0.0001349582535265,,,,3.0,3.0,local

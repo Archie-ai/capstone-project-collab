@@ -1,0 +1,39 @@
+PAR_SCHEPERJANS ANCOM-BC2 SUMMARY
+====================================================================
+
+Taxa analyzed: 691
+Control samples: 74
+Case samples: 74
+R version: 4.5.1
+ANCOMBC version: 2.15.2
+
+SETTINGS
+Formula: Group
+Reference group: Control
+Target coefficient: GroupCase
+P-value adjustment: BH
+Pseudo-count sensitivity: TRUE
+Internal prevalence cutoff: 0
+External prevalence cutoff: 0.10
+Internal library cutoff: 0
+Structural-zero detection: FALSE
+s0 percentile: 0.05
+Alpha: 0.05
+
+RESULTS
+Taxa tested: 691
+Standard significant taxa: 365
+Robust significant taxa: 1
+Robust Case-higher taxa: 1
+Robust Control-higher taxa: 0
+Minimum raw p-value: 1.367143119e-10
+Minimum adjusted p-value: 9.446958953e-08
+
+PRIMARY CROSS-METHOD CALL
+Robust significance = q < 0.05 AND passed pseudo-count sensitivity.
+
+EFFECT
+ANCOM-BC2 LFC is on the natural-log scale. Positive GroupCase LFC = Case higher.
+
+INTERPRETATION
+Real-data findings have unknown ground truth and are not classified as true positives.

@@ -1,0 +1,32 @@
+ALDEx2 INDEPENDENT NULL VALIDATION
+============================================================
+
+ALDEx2 version: 1.40.0
+Monte Carlo samples: 128
+Denominator: all
+Random seed: 42
+
+Taxa available: 100
+Control samples: 25
+Case samples: 25
+All-zero taxa: 0
+
+WELCH
+Taxa with usable BH values: 100
+Missing BH values: 0
+Significant taxa: 0
+Minimum raw p-value: 0.05463542145
+Minimum adjusted p-value: 0.7308217229
+
+WILCOXON
+Taxa with usable BH values: 100
+Missing BH values: 0
+Significant taxa: 0
+Minimum raw p-value: 0.05908394046
+Minimum adjusted p-value: 0.7170665171
+
+Missing effect estimates: 0
+
+Known true DA taxa: 0
+
+Any significant result in this dataset is a false-positive discovery because the simulation is a global null.

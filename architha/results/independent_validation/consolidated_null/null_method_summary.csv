@@ -1,0 +1,5 @@
+Method,Primary_Statistic,Taxa_Available,Taxa_Tested,Adjusted_P_Available,Significant_Taxa,Minimum_Raw_P,Minimum_Adjusted_P,Known_False_Positive_Discoveries,Realized_FDP_This_Null_Replicate
+CLR_Wilcoxon,Wilcoxon_rank_sum,100,100,100,1,0.0003074624328962,0.0307462432896244,1,1.0
+ALDEx2,Wilcoxon_expected,100,100,100,0,0.0590839404633205,0.717066517067835,0,0.0
+ANCOM_BC2,Robust_BH_call,100,100,100,1,0.0003835349188819,0.0383534918881915,1,1.0
+DESeq2,Wald,100,100,100,0,0.0021635755055444,0.21635755055444,0,0.0

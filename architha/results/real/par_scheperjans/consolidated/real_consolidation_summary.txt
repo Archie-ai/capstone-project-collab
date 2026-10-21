@@ -1,0 +1,27 @@
+PAR_SCHEPERJANS FOUR-METHOD REAL-DATA CONSOLIDATION
+========================================================================
+
+PRIMARY SIGNIFICANCE DEFINITIONS
+CLR/Wilcoxon: BH q < 0.05
+ALDEx2: wi.eBH < 0.05
+ANCOM-BC2: q < 0.05 AND passed pseudo-count sensitivity
+DESeq2: primary BH-adjusted result < 0.05
+
+CLR_Wilcoxon: tested=691, significant=1, min p=1.480051475e-05, min q=0.01022715569
+ALDEx2: tested=691, significant=0, min p=0.0003810233692, min q=0.1591172736
+ANCOM_BC2_Robust: tested=691, significant=1, min p=1.367143119e-10, min q=9.446958953e-08
+DESeq2: tested=691, significant=3, min p=1.953086158e-07, min q=0.0001349582535
+
+CONSENSUS
+0/4=688
+1/4=2
+2/4=0
+3/4=1
+4/4=0
+>=2/4=1
+>=3/4=1
+4/4=0
+Direction-aware >=2/4=1
+
+INTERPRETATION
+These are real-data agreement results. Ground truth is unknown, so consensus does not establish biological correctness.

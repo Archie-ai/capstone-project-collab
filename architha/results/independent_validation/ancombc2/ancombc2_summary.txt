@@ -1,0 +1,26 @@
+ANCOM-BC2 INDEPENDENT NULL VALIDATION
+============================================================
+
+ANCOMBC version: 2.15.2
+Fixed formula: Group
+Reference group: Control
+Coefficient: GroupCase
+Dummy metadata column added: TRUE
+P-value adjustment: BH
+Prevalence cutoff: 0
+Library cutoff: 0
+Pseudo-count sensitivity: TRUE
+Conservative sensitivity mode: TRUE
+Alpha: 0.05
+
+Taxa available: 100
+Taxa tested: 100
+Taxa not tested: 0
+Standard BH-significant taxa: 1
+Robust significant taxa: 1
+Minimum raw p-value: 0.0003835349189
+Minimum adjusted p-value: 0.03835349189
+
+Known true DA taxa: 0
+
+Any significant taxon in this dataset is a false-positive discovery because the simulation is a complete null.

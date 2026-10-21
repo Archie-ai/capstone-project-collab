@@ -1,0 +1,37 @@
+PAR_SCHEPERJANS DESEQ2 SUMMARY
+====================================================================
+
+Taxa analyzed: 691
+Control samples: 74
+Case samples: 74
+R version: 4.5.1
+DESeq2 version: 1.48.2
+
+SETTINGS
+Design: ~ Group
+Reference group: Control
+Contrast: Case vs Control
+Test: Wald
+Size-factor method: poscounts
+Dispersion fit used: local
+Alpha: 0.05
+
+PRIMARY RESULTS
+Taxa with raw p-values: 691
+Taxa with adjusted p-values: 691
+Taxa with NA adjusted p-values: 0
+Significant taxa: 3
+Case-higher significant taxa: 1
+Control-higher significant taxa: 2
+Minimum raw p-value: 1.953086158e-07
+Minimum adjusted p-value: 0.0001349582535
+
+DIAGNOSTICS
+No-independent-filter significant taxa: 3
+No-independent-filter/no-Cook's significant taxa: 3
+
+EFFECT
+Effect estimate is DESeq2 log2 fold change for Case versus Control.
+
+INTERPRETATION
+Real-data discoveries have unknown ground truth and are not classified as true positives.

@@ -1,0 +1,5 @@
+,CLR_Wilcoxon,ALDEx2,ANCOM_BC2_Robust,DESeq2
+CLR_Wilcoxon,1.0,,1.0,1.0
+ALDEx2,,1.0,,
+ANCOM_BC2_Robust,1.0,,1.0,1.0
+DESeq2,1.0,,1.0,1.0

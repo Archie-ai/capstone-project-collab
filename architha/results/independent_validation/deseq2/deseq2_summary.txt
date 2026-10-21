@@ -1,0 +1,33 @@
+DESeq2 INDEPENDENT NULL VALIDATION
+============================================================
+
+DESeq2 version: 1.48.2
+Design: ~ Group
+Reference group: Control
+Contrast: Case vs Control
+Size-factor method: ratio
+Test: Wald
+Primary independent filtering: TRUE
+P-value adjustment: BH
+Alpha: 0.05
+
+Taxa available: 100
+Taxa with raw p-values: 100
+Taxa with primary adjusted p-values: 100
+Taxa with missing primary adjusted p-values: 0
+Taxa identified as independently filtered: 0
+Primary significant taxa: 0
+Significant without independent filtering: 0
+Significant with filtering and Cook's cutoff disabled: 0
+Minimum primary raw p-value: 0.002163575506
+Minimum primary adjusted p-value: 0.2163575506
+Minimum no-filter adjusted p-value: 0.2163575506
+Minimum full-diagnostic adjusted p-value: 0.2163575506
+
+Minimum size factor: 0.96991
+Median size factor: 1.00202
+Maximum size factor: 1.05204
+
+Known true DA taxa: 0
+
+Under this complete-null simulation, every significant taxon represents a false-positive discovery.

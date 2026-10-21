@@ -1,0 +1,5 @@
+Taxon,Method,Primary_Statistic,Tested,P_Value,Adjusted_P_Value,Significant,Effect_Estimate,Effect_Metric,Effect_Direction,True_DA,True_Direction,True_Effect_Size,Scenario,Seed
+Taxon_033,CLR_Wilcoxon,Wilcoxon_rank_sum,True,0.0003074624328962,0.0307462432896244,True,0.2777722956762716,CLR mean difference (Case-Control),Case_higher,0,None,0.0,Null_Baseline_Low_Sparsity,42
+Taxon_033,ALDEx2,Wilcoxon_expected,True,0.0590839404633205,0.717066517067835,False,0.426264331809444,ALDEx2 CLR difference (Case-Control),Case_higher,0,None,0.0,Null_Baseline_Low_Sparsity,42
+Taxon_033,ANCOM_BC2,Robust_BH_call,True,0.0003835349188819,0.0383534918881915,True,0.302095798776937,ANCOM-BC2 log fold change,Case_higher,0,None,0.0,Null_Baseline_Low_Sparsity,42
+Taxon_033,DESeq2,Wald,True,0.0021635755055444,0.21635755055444,False,0.4407528923268,DESeq2 log2 fold change,Case_higher,0,None,0.0,Null_Baseline_Low_Sparsity,42

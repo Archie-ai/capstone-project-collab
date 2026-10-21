@@ -1,0 +1,28 @@
+[PASS] Count-table dimensions: observed=(100, 50), expected=(100, 50)
+[PASS] Unique taxon identifiers: duplicate taxa=0
+[PASS] Unique count-table sample IDs: duplicate sample columns=0
+[PASS] All count values are numeric: non-numeric/missing values=0
+[PASS] Counts are non-negative: negative cells=0
+[PASS] Counts are integers
+[PASS] Metadata sample count: observed=50, expected=50
+[PASS] Unique metadata sample IDs: duplicates=0
+[PASS] Count-table and metadata sample IDs match
+[PASS] Count-table and metadata sample order match
+[PASS] Case/Control group balance: Control=25, Case=25
+[PASS] Recorded library sizes equal observed count sums
+[PASS] No zero-library samples: zero-library samples=0
+[INFO] Overall zero fraction: 0.0468 (4.68%)
+[INFO] Taxon prevalence: min=0.040, median=1.000, max=1.000
+[INFO] Number of all-zero taxa: 0
+[PASS] Ground-truth taxon count: observed=100, expected=100
+[PASS] Count-table and ground-truth taxa match
+[PASS] Null ground truth contains zero DA taxa: true DA taxa=0
+[PASS] All null effect sizes equal zero
+
+Library-size summary by group:
+             mean   median   min    max
+Group                                  
+Case     10014.28  10010.0  9753  10178
+Control   9974.16   9964.0  9782  10191
+
+OVERALL RESULT: PASS — all critical integrity checks passed.

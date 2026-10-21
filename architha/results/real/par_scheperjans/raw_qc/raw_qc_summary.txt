@@ -1,0 +1,39 @@
+PAR_SCHEPERJANS RAW DATA QC
+================================================================
+
+Metadata samples: 148
+Raw taxa: 10232
+Count-table samples: 148
+
+GROUP COUNTS
+H: 74
+PAR: 74
+
+SAMPLE ALIGNMENT
+Sample sets match exactly: True
+Metadata-only samples: 0
+Count-only samples: 0
+
+COUNT QC
+Non-numeric cells: 0
+Negative cells: 0
+Non-integer cells: 0
+Zero-library samples: 0
+
+LIBRARY SIZE
+Mean: 2804.94
+Median: 2668.00
+Minimum: 980
+Maximum: 5532
+
+SPARSITY
+Zero fraction: 0.967458
+Zero percentage: 96.75%
+
+TAXON QC
+All-zero taxa: 0
+Missing denovo identifiers: 0
+Duplicate denovo identifiers: 0
+
+OVERALL RESULT
+PASS

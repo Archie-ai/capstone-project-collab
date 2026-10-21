@@ -1,0 +1,5 @@
+,CLR_Wilcoxon,ALDEx2,ANCOM_BC2,DESeq2
+CLR_Wilcoxon,1.0,0.0,1.0,0.0
+ALDEx2,0.0,1.0,0.0,
+ANCOM_BC2,1.0,0.0,1.0,0.0
+DESeq2,0.0,,0.0,1.0

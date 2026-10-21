@@ -1,0 +1,37 @@
+CLR/WILCOXON INDEPENDENT VALIDATION
+============================================================
+
+INPUT
+Count table: data\processed\simulation_null\null_counts.csv
+Metadata: data\processed\simulation_null\null_metadata.csv
+Truth: data\processed\simulation_null\null_ground_truth.csv
+
+CONFIGURATION
+Pseudocount: 0.5
+Transformation: CLR within each sample
+Test: two-sided Mann-Whitney U (Wilcoxon rank-sum equivalent)
+SciPy method: asymptotic
+Multiple-testing correction: Benjamini-Hochberg
+Alpha: 0.05
+
+DATASET
+Taxa available: 100
+Control samples: 25
+Case samples: 25
+All-zero taxa: 0
+
+RESULTS
+Taxa tested: 100
+Significant taxa: 1
+Minimum raw p-value: 0.0003074624329
+Minimum adjusted p-value: 0.03074624329
+
+GROUND TRUTH
+True DA taxa: 0
+False positives under null: 1
+
+SIGNIFICANT TAXA
+Taxon_033
+
+INTERPRETATION
+Because this simulation contains no true differentially abundant taxa, any BH-significant taxon represents a false-positive discovery.

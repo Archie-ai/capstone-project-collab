@@ -1,0 +1,39 @@
+PAR_SCHEPERJANS CANONICAL DATASET QC
+====================================================================
+
+Processed shape: 691 taxa x 148 samples
+Control samples: 74
+Case samples: 74
+
+POST-FILTER LIBRARY SIZE
+Mean: 1618.36
+Median: 1578.00
+Minimum: 376
+Maximum: 3125
+
+SPARSITY
+Zero fraction: 0.784458
+Zero percentage: 78.45%
+
+CHECKS
+148 samples retained: PASS
+74 Control samples: PASS
+74 Case samples: PASS
+Metadata/count sample order aligned: PASS
+No duplicate Taxon IDs: PASS
+No duplicate sample IDs: PASS
+No negative counts: PASS
+All counts integer: PASS
+No all-zero retained taxa: PASS
+No zero-library retained samples: PASS
+Every retained taxon meets prevalence threshold: PASS
+Taxonomy mapping complete: PASS
+Taxon QC complete: PASS
+
+SHA-256
+counts: 65c9d19cdfeaa90e7b238f896d8f102539f1626452434d01bc2639804a33c528
+metadata: 5392f608931d07c450d18af4da074f0868cd174c297d11135509999e19b33b94
+taxonomy_mapping: 65ddecdb837fc05ed87c6208f0b61cf30a254b4321a0e75ca2c7e82c1330b601
+taxon_qc: 402de0501dde2e4cf2e9259a6045f3b0551b0a4f80af437db614ff2a7d1bff4b
+
+OVERALL RESULT: PASS

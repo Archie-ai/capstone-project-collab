@@ -1,0 +1,32 @@
+PAR_SCHEPERJANS ALDEX2 SUMMARY
+====================================================================
+
+Taxa analyzed: 691
+Control samples: 74
+Case samples: 74
+R version: 4.5.1
+ALDEx2 version: 1.40.0
+Monte Carlo samples: 128
+Denominator: all
+Conditions supplied as character vector
+Paired test: FALSE
+Seed: 42
+
+PRIMARY WILCOXON RESULT
+Taxa tested: 691
+Significant taxa: 0
+Case-higher significant taxa: 0
+Control-higher significant taxa: 0
+Minimum raw p-value: 0.0003810233692
+Minimum adjusted p-value: 0.1591172736
+
+WELCH DIAGNOSTIC RESULT
+Significant taxa: 0
+Minimum raw p-value: 0.00333007237
+Minimum adjusted p-value: 0.3352147016
+
+EFFECT DIRECTION
+Standardized effect = ALDEx2 median CLR(Case) - median CLR(Control).
+
+INTERPRETATION
+Real-data discoveries have unknown ground truth and are not classified as true positives.

@@ -1,0 +1,27 @@
+{
+  "dataset": "par_scheperjans",
+  "raw_metadata_file": "data\\raw\\par_scheperjans\\par_scheperjans_results\\par_scheperjans.metadata.txt",
+  "raw_counts_file": "data\\raw\\par_scheperjans\\par_scheperjans_results\\RDP\\par_scheperjans.otu_table.100.denovo.rdp_assigned",
+  "raw_samples": 148,
+  "raw_taxa": 10232,
+  "prevalence_threshold": 0.1,
+  "minimum_samples_required": 15,
+  "retained_taxa": 691,
+  "removed_taxa": 9541,
+  "control_samples": 74,
+  "case_samples": 74,
+  "raw_zero_fraction": 0.9674583447794941,
+  "processed_zero_fraction": 0.7844584816364846,
+  "group_mapping": {
+    "H": "Control",
+    "PAR": "Case"
+  },
+  "additional_total_count_filter": null,
+  "hashes": {
+    "counts_sha256": "65c9d19cdfeaa90e7b238f896d8f102539f1626452434d01bc2639804a33c528",
+    "metadata_sha256": "5392f608931d07c450d18af4da074f0868cd174c297d11135509999e19b33b94",
+    "taxonomy_mapping_sha256": "65ddecdb837fc05ed87c6208f0b61cf30a254b4321a0e75ca2c7e82c1330b601",
+    "taxon_qc_sha256": "402de0501dde2e4cf2e9259a6045f3b0551b0a4f80af437db614ff2a7d1bff4b"
+  },
+  "overall_qc": "PASS"
+}

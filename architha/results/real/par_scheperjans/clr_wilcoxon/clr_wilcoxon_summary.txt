@@ -1,0 +1,31 @@
+PAR_SCHEPERJANS CLR/WILCOXON SUMMARY
+====================================================================
+
+DATASET
+Taxa analyzed: 691
+Control samples: 74
+Case samples: 74
+
+METHOD
+CLR pseudocount: 0.5
+Test: two-sided Mann-Whitney U / Wilcoxon rank-sum
+SciPy implementation: asymptotic method
+Effect: mean CLR(Case) - mean CLR(Control)
+Multiple-testing correction: Benjamini-Hochberg
+Alpha: 0.05
+
+CLR QC
+Maximum absolute sample-wise CLR sum: 7.46069872548e-14
+
+RESULTS
+Taxa tested: 691
+Significant taxa: 1
+Case-higher significant taxa: 1
+Control-higher significant taxa: 0
+Minimum raw p-value: 1.480051475e-05
+Minimum adjusted p-value: 0.01022715569
+
+INTERPRETATION NOTE
+This is a real microbiome dataset with unknown ground truth.
+Significant taxa represent statistical discoveries rather than confirmed biological truth.
+Results will be compared with ALDEx2, ANCOM-BC2, and DESeq2 for concordance and consensus analysis.
