@@ -1,0 +1,37 @@
+NULL-VERSUS-REAL MICROBIOME DA CONSOLIDATION
+====================================================================
+
+The canonical null simulation contains zero true DA taxa.
+Therefore, any discovery in the null dataset is a false discovery for that realization.
+
+The real microbiome datasets do not have known biological ground truth.
+Real-data significant taxa and consensus signals must therefore be interpreted as statistical discoveries and cross-method agreement, not proven true positives.
+
+200-RUN NULL CALIBRATION
+------------------------
+CLR/Wilcoxon: 3.5% of runs contained at least one false discovery.
+ALDEx2: 3.0% of runs contained at least one false discovery.
+ANCOM-BC: 9.5% of runs contained at least one false discovery.
+DESeq2: 14.0% of runs contained at least one false discovery.
+
+CONSENSUS NULL CALIBRATION
+--------------------------
+2-of-4 consensus: 7.0% probability of at least one false consensus discovery.
+3-of-4 consensus: 3.0% probability of at least one false consensus discovery.
+4-of-4 consensus: 2.0% probability of at least one false consensus discovery.
+
+COMPARABILITY NOTES
+-------------------
+Discovery rates are normalized by each dataset's analysis universe because raw significant-taxon counts are not directly comparable.
+DESeq2 valid-q discovery rates are retained because some datasets contain many NA adjusted p-values.
+Standard ANCOM calls are used for cross-dataset comparison. Robust ANCOM calls are retained separately where available.
+Peggy's ALDEx2 analysis is Welch-primary, whereas the other ALDEx2 workflows are Wilcoxon-primary.
+Consensus definitions differ somewhat among team workflows and are explicitly labeled.
+
+MAIN INTERPRETATION
+-------------------
+Discovery burden varies strongly across both methods and real datasets.
+The magnitude of this variation is substantially greater than the average false-positive burden observed under repeated complete-null simulation.
+However, because biological truth is unknown in the real datasets, larger discovery sets cannot automatically be interpreted as greater accuracy.
+The results instead demonstrate strong method-by-dataset dependence.
+Consensus provides a way to prioritize more reproducible signals, but the null results show that consensus itself is not equivalent to truth.

@@ -1,0 +1,6 @@
+Dataset,Owner,Dataset_Type,Samples,Group1_N,Group2_N,Raw_Taxa,QC_Retained_Taxa,Analysis_Universe,Zero_Fraction,Preferred_Consensus_ge2,Preferred_Consensus_ge3,Preferred_Consensus_4of4,Consensus_Definition,ANCOM_Standard_Significant,ANCOM_Robust_Significant,Notes
+canonical_null,Architha,Known complete null,50,25.0,25.0,100.0,100,100,0.0468,1,0,0,Vote-based null consensus,1,1.0,Ground truth contains zero true DA taxa. Taxon_033 was a 2-of-4 false consensus.
+cdi_schubert,Erin,Real,247,154.0,93.0,19314.0,1420,1420,0.869,286,106,59,Direction-aware consensus,521,,Preferred consensus requires significance and agreement in effect direction.
+crc_baxter,Peggy,Real,292,,,,1133,1133,,34,2,0,Vote-based consensus,486,,ALDEx2 is Welch-primary.
+cdi_vincent,Raquel,Real,50,25.0,25.0,4299.0,618,195,0.806990291262136,6,3,1,Robust vote-based consensus,61,1.0,Preprocessing retained 618 OTUs; final DA summaries use 195 OTUs.
+par_scheperjans,Architha,Real,148,74.0,74.0,10232.0,691,691,0.784458,1,1,0,Robust ANCOM + direction-aware consensus,365,1.0,OTU_00659 / Alistipes is the single 3-of-4 consensus taxon.

@@ -1,0 +1,4 @@
+Threshold,Mean_Type_I_Error,Probability_Any_False_Discovery,Probability_Any_False_Discovery_Pct,Mean_False_Positives
+2-of-4,0.0008,0.07,7.0,0.08
+3-of-4,0.0003,0.03,3.0,0.03
+4-of-4,0.0002,0.02,2.0,0.02

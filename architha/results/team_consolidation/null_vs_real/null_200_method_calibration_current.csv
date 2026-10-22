@@ -1,0 +1,5 @@
+Method,Mean_Type_I_Error,Probability_Any_False_Discovery,Probability_Any_False_Discovery_Pct,Mean_False_Positives
+CLR_Wilcoxon,0.00035,0.035,3.5,0.035
+ALDEx2,0.0003,0.03,3.0,0.03
+ANCOM,0.00135,0.095,9.5,0.135
+DESeq2,0.0018,0.14,14.0,0.18

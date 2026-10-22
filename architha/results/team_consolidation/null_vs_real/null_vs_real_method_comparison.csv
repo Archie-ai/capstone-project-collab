@@ -1,0 +1,21 @@
+Dataset,Owner,Method,Method_Variant,Analysis_Universe,Valid_Adjusted_P_Values,Significant_Taxa,Discovery_Rate_Universe_Pct,Discovery_Rate_ValidQ_Pct,Robust_Significant_Taxa,Notes
+canonical_null,Architha,CLR_Wilcoxon,CLR + Wilcoxon/Mann-Whitney,100,100,1,1.0,1.0,,Known complete-null dataset.
+canonical_null,Architha,ALDEx2,ALDEx2 Wilcoxon primary,100,100,0,0.0,0.0,,Known complete-null dataset.
+canonical_null,Architha,ANCOM,ANCOM-BC2 robust primary,100,100,1,1.0,1.0,1.0,Known complete-null dataset.
+canonical_null,Architha,DESeq2,DESeq2 primary,100,100,0,0.0,0.0,,Known complete-null dataset.
+cdi_schubert,Erin,CLR_Wilcoxon,CLR + Wilcoxon; pseudocount 1.0,1420,1420,1374,96.7605633802817,96.7605633802817,,
+cdi_schubert,Erin,ALDEx2,ALDEx2 Wilcoxon primary; 128 MC,1420,1420,92,6.47887323943662,6.47887323943662,,
+cdi_schubert,Erin,ANCOM,ANCOM-BC standard,1420,1420,521,36.690140845070424,36.690140845070424,,Robust ANCOM sensitivity not reported.
+cdi_schubert,Erin,DESeq2,DESeq2 primary,1420,457,283,19.929577464788732,61.925601750547045,,963 taxa had NA adjusted p-values.
+crc_baxter,Peggy,CLR_Wilcoxon,CLR + Wilcoxon,1133,1133,24,2.118270079435128,2.118270079435128,,
+crc_baxter,Peggy,ALDEx2,ALDEx2 Welch primary,1133,1133,0,0.0,0.0,,Welch-primary ALDEx2 differs from the Wilcoxon-primary workflows.
+crc_baxter,Peggy,ANCOM,ANCOM-BC2 standard,1133,1133,486,42.89496910856134,42.89496910856134,,Robust ANCOM sensitivity not reported.
+crc_baxter,Peggy,DESeq2,DESeq2 primary,1133,584,20,1.7652250661959399,3.4246575342465753,,549 taxa lacked usable adjusted p-values.
+cdi_vincent,Raquel,CLR_Wilcoxon,CLR + Wilcoxon; pseudocount 0.5,195,195,14,7.17948717948718,7.17948717948718,,
+cdi_vincent,Raquel,ALDEx2,ALDEx2 Wilcoxon primary; 128 MC,195,195,3,1.5384615384615385,1.5384615384615385,,
+cdi_vincent,Raquel,ANCOM,ANCOM-BC2 standard + robust,195,195,61,31.28205128205128,31.28205128205128,1.0,Standard and robust ANCOM calls retained.
+cdi_vincent,Raquel,DESeq2,DESeq2 primary,195,142,34,17.435897435897434,23.943661971830984,,53 taxa had missing adjusted p-values.
+par_scheperjans,Architha,CLR_Wilcoxon,CLR + Mann-Whitney/Wilcoxon; pseudocount 0.5,691,691,1,0.1447178002894356,0.1447178002894356,,
+par_scheperjans,Architha,ALDEx2,ALDEx2 Wilcoxon primary; 128 MC,691,691,0,0.0,0.0,,
+par_scheperjans,Architha,ANCOM,ANCOM-BC2 standard + robust,691,691,365,52.821997105643995,52.821997105643995,1.0,Standard calls used for harmonized comparison; robust sensitivity retained separately.
+par_scheperjans,Architha,DESeq2,DESeq2 poscounts; local dispersion fit,691,691,3,0.4341534008683068,0.4341534008683068,,Primary and diagnostic DESeq2 analyses all returned 3 significant taxa.
