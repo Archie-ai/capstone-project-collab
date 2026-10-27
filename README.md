@@ -540,50 +540,6 @@ Robustness evaluates statistical stability under the sensitivity procedure. It d
 
 ---
 
-# Parkinson's Disease Case Study — `par_scheperjans`
-
-The `par_scheperjans` analysis included:
-
-- **148 samples**
-  - 74 healthy controls
-  - 74 Parkinson's disease cases
-- **10,232 raw taxa**
-- **691 taxa after prevalence filtering**
-- Raw zero fraction: approximately **96.75%**
-- Post-filter zero fraction: approximately **78.45%**
-
-## Method Results
-
-| Method | Significant Taxa |
-|---|---:|
-| CLR/Wilcoxon | 1 |
-| ALDEx2 | 0 |
-| ANCOM standard | 365 |
-| ANCOM robust | 1 |
-| DESeq2 | 3 |
-
-The strongest cross-method candidate was:
-
-### `OTU_00659` — *Alistipes*
-
-`OTU_00659` was significant under:
-
-- CLR/Wilcoxon;
-- robust ANCOM-BC2; and
-- DESeq2.
-
-This produced **3-of-4 primary-method consensus**.
-
-ALDEx2 did not cross the adjusted-p significance threshold but estimated the same **Case-higher** direction.
-
-The appropriate interpretation is:
-
-> *Alistipes* represents a reproducible cross-method candidate signal within this dataset.
-
-It should **not** be interpreted as evidence that *Alistipes* causes Parkinson's disease.
-
----
-
 # Consensus Interpretation
 
 The consensus framework evaluates whether taxa are supported by multiple analytical approaches.
